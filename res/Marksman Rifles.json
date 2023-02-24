@@ -1,1 +1,502 @@
-{"categoryName":"Marksman Rifles","weapons":[{"name":"EBR-14","camos":[{"name":"sandstorm-digital","displayName":"Sandstorm Digital","requirement":"Get 50 kills","progression":0,"target":50,"unlocked":false},{"name":"moss","displayName":"Moss","requirement":"Get 30 kills while crouched","progression":0,"target":30,"unlocked":false},{"name":"autumn-return","displayName":"Autumn Return","requirement":"Get 20 kills while mounted","progression":0,"target":20,"unlocked":false},{"name":"sunlit-croc","displayName":"Sunlit Croc","requirement":"Get 10 double kills","progression":0,"target":10,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 25 longshot kills","progression":0,"target":25,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 25 headshot kills","progression":0,"target":25,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]},{"name":"SP-R 208","camos":[{"name":"dark-canopy","displayName":"Dark Canopy","requirement":"Get 50 kills","progression":0,"target":50,"unlocked":false},{"name":"desert-digital","displayName":"Desert Digital","requirement":"Get 50 ADS kills","progression":0,"target":50,"unlocked":false},{"name":"ferns","displayName":"Ferns","requirement":"Get 30 kills while prone","progression":0,"target":30,"unlocked":false},{"name":"crimson-streak","displayName":"Crimson Streak","requirement":"Get 20 kills while mounted","progression":0,"target":20,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 25 longshot kills","progression":0,"target":25,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 25 headshot kills","progression":0,"target":25,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]},{"name":"Lockwood MK2","camos":[{"name":"sand-viper","displayName":"Sand Viper","requirement":"Get 50 kills","progression":0,"target":50,"unlocked":false},{"name":"desert-rain","displayName":"Desert Rain","requirement":"Get 15 kills from behind","progression":0,"target":15,"unlocked":false},{"name":"wild-zebra","displayName":"Wild Zebra","requirement":"Get 25 one-shot kills","progression":0,"target":25,"unlocked":false},{"name":"granite","displayName":"Granite","requirement":"Get 10 point blank kills","progression":0,"target":10,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 25 longshot kills","progression":0,"target":25,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 25 headshot kills","progression":0,"target":25,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]},{"name":"LM-S","camos":[{"name":"commando-digital","displayName":"Commando Digital","requirement":"Get 40 kills","progression":0,"target":40,"unlocked":false},{"name":"abominable","displayName":"Abominable","requirement":"Get 20 kills while mounted","progression":0,"target":20,"unlocked":false},{"name":"autumnal","displayName":"Autumnal","requirement":"Get 20 one-shot kills","progression":0,"target":20,"unlocked":false},{"name":"coral-snake","displayName":"Coral Snake","requirement":"Get 30 kills while crouched","progression":0,"target":30,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 25 longshot kills","progression":0,"target":25,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 25 headshot kills","progression":0,"target":25,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]},{"name":"SA-B 50","camos":[{"name":"urban-digital","displayName":"Urban Digital","requirement":"Get 50 kills","progression":0,"target":50,"unlocked":false},{"name":"bullsnake","displayName":"Bullsnake","requirement":"Get 25 one-shot kills","progression":0,"target":25,"unlocked":false},{"name":"toxicity","displayName":"Toxicity","requirement":"Get 10 double kills","progression":0,"target":10,"unlocked":false},{"name":"splintered-asphalt","displayName":"Splintered Asphalt","requirement":"Get 10 kills while mounted","progression":0,"target":10,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 25 longshot kills","progression":0,"target":25,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 25 headshot kills","progression":0,"target":25,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]},{"name":"TAQ-M","camos":[{"name":"dead-hive","displayName":"Dead Hive","requirement":"Get 50 kills","progression":0,"target":50,"unlocked":false},{"name":"forest-water","displayName":"Forest Water","requirement":"Get 20 kills while mounted","progression":0,"target":20,"unlocked":false},{"name":"skin-and-scales","displayName":"Skin and Scales","requirement":"Get 5 hipfire kills","progression":0,"target":5,"unlocked":false},{"name":"chemist-digital","displayName":"Chemist Digital","requirement":"Get 10 double kills","progression":0,"target":10,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 25 longshot kills","progression":0,"target":25,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 25 headshot kills","progression":0,"target":25,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]}]}
+{
+    "categoryName": "Marksman Rifles",
+    "weapons": [
+        {
+            "name": "EBR-14",
+            "camos": [
+                {
+                    "name": "sandstorm-digital",
+                    "displayName": "Sandstorm Digital",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "moss",
+                    "displayName": "Moss",
+                    "requirement": "Get 30 kills while crouched",
+                    "progression": 0,
+                    "target": 30,
+                    "unlocked": false
+                },
+                {
+                    "name": "autumn-return",
+                    "displayName": "Autumn Return",
+                    "requirement": "Get 20 kills while mounted",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "sunlit-croc",
+                    "displayName": "Sunlit Croc",
+                    "requirement": "Get 10 double kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "SP-R 208",
+            "camos": [
+                {
+                    "name": "dark-canopy",
+                    "displayName": "Dark Canopy",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "desert-digital",
+                    "displayName": "Desert Digital",
+                    "requirement": "Get 50 ADS kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "ferns",
+                    "displayName": "Ferns",
+                    "requirement": "Get 30 kills while prone",
+                    "progression": 0,
+                    "target": 30,
+                    "unlocked": false
+                },
+                {
+                    "name": "crimson-streak",
+                    "displayName": "Crimson Streak",
+                    "requirement": "Get 20 kills while mounted",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "Lockwood MK2",
+            "camos": [
+                {
+                    "name": "sand-viper",
+                    "displayName": "Sand Viper",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "desert-rain",
+                    "displayName": "Desert Rain",
+                    "requirement": "Get 15 kills from behind",
+                    "progression": 0,
+                    "target": 15,
+                    "unlocked": false
+                },
+                {
+                    "name": "wild-zebra",
+                    "displayName": "Wild Zebra",
+                    "requirement": "Get 25 one-shot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "granite",
+                    "displayName": "Granite",
+                    "requirement": "Get 10 point blank kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "LM-S",
+            "camos": [
+                {
+                    "name": "commando-digital",
+                    "displayName": "Commando Digital",
+                    "requirement": "Get 40 kills",
+                    "progression": 0,
+                    "target": 40,
+                    "unlocked": false
+                },
+                {
+                    "name": "abominable",
+                    "displayName": "Abominable",
+                    "requirement": "Get 20 kills while mounted",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "autumnal",
+                    "displayName": "Autumnal",
+                    "requirement": "Get 20 one-shot kills",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "coral-snake",
+                    "displayName": "Coral Snake",
+                    "requirement": "Get 30 kills while crouched",
+                    "progression": 0,
+                    "target": 30,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "SA-B 50",
+            "camos": [
+                {
+                    "name": "urban-digital",
+                    "displayName": "Urban Digital",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "bullsnake",
+                    "displayName": "Bullsnake",
+                    "requirement": "Get 25 one-shot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "toxicity",
+                    "displayName": "Toxicity",
+                    "requirement": "Get 10 double kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "splintered-asphalt",
+                    "displayName": "Splintered Asphalt",
+                    "requirement": "Get 10 kills while mounted",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "TAQ-M",
+            "camos": [
+                {
+                    "name": "dead-hive",
+                    "displayName": "Dead Hive",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "forest-water",
+                    "displayName": "Forest Water",
+                    "requirement": "Get 20 kills while mounted",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "skin-and-scales",
+                    "displayName": "Skin and Scales",
+                    "requirement": "Get 5 hipfire kills",
+                    "progression": 0,
+                    "target": 5,
+                    "unlocked": false
+                },
+                {
+                    "name": "chemist-digital",
+                    "displayName": "Chemist Digital",
+                    "requirement": "Get 10 double kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "Crossbow",
+            "camos": [
+                {
+                    "name": "deciduous",
+                    "displayName": "Deciduous",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "h20",
+                    "displayName": "H20",
+                    "requirement": "Get 5 double kills",
+                    "progression": 0,
+                    "target": 5,
+                    "unlocked": false
+                },
+                {
+                    "name": "unlit-showers",
+                    "displayName": "Unlit Showers",
+                    "requirement": "Get 15 kills from behind",
+                    "progression": 0,
+                    "target": 15,
+                    "unlocked": false
+                },
+                {
+                    "name": "rad-n-rancid",
+                    "displayName": "Rad N Rancid",
+                    "requirement": "Get 20 kills while prone",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        }
+    ]
+}
