@@ -1,1 +1,146 @@
-{"categoryName":"Melee","weapons":[{"name":"Combat Knife","camos":[{"name":"scarlet","displayName":"Scarlet","requirement":"Get 50 kills","progression":0,"target":50,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 10 double kills","progression":0,"target":10,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 20 kills from behind","progression":0,"target":20,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]},{"name":"Riot Shield","camos":[{"name":"urban-zebra","displayName":"Urban Zebra","requirement":"Get 40 kills","progression":0,"target":40,"unlocked":false}],"masteries":[{"name":"gold","displayName":"Gold","requirement":"Get 3 kills withuot dying 10 times","progression":0,"target":10,"unlocked":false},{"name":"platinum","displayName":"Platinum","requirement":"Get 10 double kills","progression":0,"target":10,"unlocked":false},{"name":"polyatomic","displayName":"Polyatomic","requirement":"Get 20 kills from behind","progression":0,"target":20,"unlocked":false},{"name":"orion","displayName":"orion","requirement":"","progression":0,"target":0,"unlocked":false}]}]}
+{
+    "categoryName": "Melee",
+    "weapons": [
+        {
+            "name": "Combat Knife",
+            "camos": [
+                {
+                    "name": "scarlet",
+                    "displayName": "Scarlet",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 10 double kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 20 kills from behind",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "Riot Shield",
+            "camos": [
+                {
+                    "name": "urban-zebra",
+                    "displayName": "Urban Zebra",
+                    "requirement": "Get 40 kills",
+                    "progression": 0,
+                    "target": 40,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 10 double kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 20 kills from behind",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "Dual Kodachis",
+            "camos": [
+                {
+                    "name": "rush-hour",
+                    "displayName": "Rush Hour",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 10 double kills",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 20 kills from behind",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        }
+    ]
+}
