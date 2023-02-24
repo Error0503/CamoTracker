@@ -715,8 +715,8 @@
             "name": "ISO Hemlock",
             "camos": [
                 {
-                    "name": "gaesous",
-                    "displayName": "Gaesous",
+                    "name": "gaseous",
+                    "displayName": "Gaseous",
                     "requirement": "Get 50 kills",
                     "progression": 0,
                     "target": 50,

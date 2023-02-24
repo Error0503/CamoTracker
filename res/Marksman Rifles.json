@@ -431,8 +431,8 @@
             "name": "Crossbow",
             "camos": [
                 {
-                    "name": "decidious",
-                    "displayName": "Decidious",
+                    "name": "deciduous",
+                    "displayName": "Deciduous",
                     "requirement": "Get 50 kills",
                     "progression": 0,
                     "target": 50,

@@ -189,8 +189,8 @@ public class Camo extends JPanel {
 
             button.setIcon(new ImageIcon(w.getScaledInstance(100, 100,
                     Image.SCALE_SMOOTH)));
-        } catch (IOException | IllegalArgumentException e) {
-            JOptionPane.showMessageDialog(null, "Missing texture or invalid reference to texture!", "Error",
+        } catch (NullPointerException | IOException | IllegalArgumentException e) {
+            JOptionPane.showMessageDialog(null, "Missing texture or invalid reference to texture!\nFailed to load '" + camo.getName() + ".png'", "Error",
                     JOptionPane.ERROR_MESSAGE);
             button.setIcon(null);
             button.setText("MISSING");
