@@ -16,7 +16,8 @@ public class FileProcessor {
     private final static ObjectMapper mapper = new ObjectMapper();
 
     public static List<WeaponCategoryObj> loadAll() {
-        return Arrays.asList(new String[] {
+
+        String[] srcs = new String[] {
                 "res/Assault Rifles.json",
                 "res/Battle Rifles.json",
                 "res/Handguns.json",
@@ -27,20 +28,47 @@ public class FileProcessor {
                 "res/Shotguns.json",
                 "res/Sniper Rifles.json",
                 "res/Sub Machine Guns.json"
-        }).stream().map(src -> {
+        };
+
+        List<WeaponCategoryObj> user = Arrays.asList(srcs).stream().map(src -> {
             try {
                 File f = new File(src);
-                return mapper.readValue(
-                        (f.exists()) ? mapper.getFactory().createParser(f)
-                                : mapper.getFactory()
-                                        .createParser(FileProcessor.class.getClassLoader().getResourceAsStream(src)),
-                        WeaponCategoryObj.class);
+                if (f.exists()) {
+                    return mapper.readValue(mapper.getFactory().createParser(f),
+                            WeaponCategoryObj.class);
+                } else {
+                    return null;
+                }
             } catch (IOException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
                 return null;
             }
         }).toList();
+
+        List<WeaponCategoryObj> updated = Arrays.asList(srcs).stream().map(src -> {
+            try {
+                return mapper.readValue(
+                        mapper.getFactory().createParser(FileProcessor.class.getClassLoader().getResourceAsStream(src)),
+                        WeaponCategoryObj.class);
+            } catch (IOException e) {
+                e.printStackTrace();
+                return null;
+            }
+        }).toList();
+
+        for (int category = 0; category < updated.size(); category++) {
+            for (int weapon = 0; weapon < updated.get(category).weapons().size(); weapon++) {
+                for (int camo = 0; camo < updated.get(category).weapons().get(weapon).camos().size(); camo++) {
+                    updated.get(category).weapons().get(weapon).camos().get(camo).setProgression(
+                            user.get(category).weapons().get(weapon).camos().get(camo).getProgression());
+                    updated.get(category).weapons().get(weapon).camos().get(camo).setUnlocked(
+                            user.get(category).weapons().get(weapon).camos().get(camo).isUnlocked());
+                }
+            }
+        }
+
+        return updated;
     }
 
     public static void saveData(List<WeaponCategoryObj> categories) {
