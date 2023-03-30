@@ -66,6 +66,12 @@ public class FileProcessor {
                         updated.get(category).weapons().get(weapon).camos().get(camo).setUnlocked(
                                 user.get(category).weapons().get(weapon).camos().get(camo).isUnlocked());
                     }
+                    for (int camo = 0; camo < user.get(category).weapons().get(weapon).masteries().size(); camo++) {
+                        updated.get(category).weapons().get(weapon).masteries().get(camo).setProgression(
+                                user.get(category).weapons().get(weapon).masteries().get(camo).getProgression());
+                        updated.get(category).weapons().get(weapon).masteries().get(camo).setUnlocked(
+                                user.get(category).weapons().get(weapon).masteries().get(camo).isUnlocked());
+                    }
                 }
         }
 
