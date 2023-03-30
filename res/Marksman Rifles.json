@@ -439,8 +439,8 @@
                     "unlocked": false
                 },
                 {
-                    "name": "oxysprum",
-                    "displayName": "Oxysprum",
+                    "name": "oxysporum",
+                    "displayName": "Oxysporum",
                     "requirement": "Get 10 double kills",
                     "progression": 0,
                     "target": 10,
