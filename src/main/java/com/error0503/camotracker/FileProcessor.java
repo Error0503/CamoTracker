@@ -57,10 +57,10 @@ public class FileProcessor {
             }
         }).toList();
 
-        for (int category = 0; category < updated.size(); category++) {
+        for (int category = 0; category < user.size(); category++) {
             if (user.get(category) != null)
-                for (int weapon = 0; weapon < updated.get(category).weapons().size(); weapon++) {
-                    for (int camo = 0; camo < updated.get(category).weapons().get(weapon).camos().size(); camo++) {
+                for (int weapon = 0; weapon < user.get(category).weapons().size(); weapon++) {
+                    for (int camo = 0; camo < user.get(category).weapons().get(weapon).camos().size(); camo++) {
                         updated.get(category).weapons().get(weapon).camos().get(camo).setProgression(
                                 user.get(category).weapons().get(weapon).camos().get(camo).getProgression());
                         updated.get(category).weapons().get(weapon).camos().get(camo).setUnlocked(
