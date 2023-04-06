@@ -25,9 +25,9 @@
                 {
                     "name": "platinum",
                     "displayName": "Platinum",
-                    "requirement": "Destroy 25 killstreaks",
+                    "requirement": "Destroy 15 killstreaks",
                     "progression": 0,
-                    "target": 25,
+                    "target": 15,
                     "unlocked": false
                 },
                 {
@@ -119,9 +119,9 @@
                 {
                     "name": "platinum",
                     "displayName": "Platinum",
-                    "requirement": "Destroy 25 killstreaks",
+                    "requirement": "Destroy 10 killstreaks",
                     "progression": 0,
-                    "target": 25,
+                    "target": 10,
                     "unlocked": false
                 },
                 {
@@ -166,9 +166,9 @@
                 {
                     "name": "platinum",
                     "displayName": "Platinum",
-                    "requirement": "Destroy 25 killstreaks",
+                    "requirement": "Destroy 10 killstreaks",
                     "progression": 0,
-                    "target": 25,
+                    "target": 10,
                     "unlocked": false
                 },
                 {
