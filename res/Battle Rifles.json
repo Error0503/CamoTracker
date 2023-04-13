@@ -172,7 +172,7 @@
                 },
                 {
                     "name": "slime-time",
-                    "displayName": "Slime Time",
+                    "displayName": "Noxious Neon",
                     "requirement": "Get 20 kills while mounted",
                     "progression": 0,
                     "target": 20,
@@ -238,7 +238,7 @@
                     "displayName": "Desert Cat",
                     "requirement": "Get 50 kills using a suppressor",
                     "progression": 0,
-                    "target": 0,
+                    "target": 50,
                     "unlocked": false
                 },
                 {
@@ -247,6 +247,77 @@
                     "requirement": "Get 30 kills while crouched",
                     "progression": 0,
                     "target": 30,
+                    "unlocked": false
+                }
+            ],
+            "masteries": [
+                {
+                    "name": "gold",
+                    "displayName": "Gold",
+                    "requirement": "Get 3 kills withuot dying 10 times",
+                    "progression": 0,
+                    "target": 10,
+                    "unlocked": false
+                },
+                {
+                    "name": "platinum",
+                    "displayName": "Platinum",
+                    "requirement": "Get 25 longshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "polyatomic",
+                    "displayName": "Polyatomic",
+                    "requirement": "Get 25 headshot kills",
+                    "progression": 0,
+                    "target": 25,
+                    "unlocked": false
+                },
+                {
+                    "name": "orion",
+                    "displayName": "orion",
+                    "requirement": "",
+                    "progression": 0,
+                    "target": 0,
+                    "unlocked": false
+                }
+            ]
+        },
+        {
+            "name": "Cronen Squall",
+            "camos": [
+                {
+                    "name": "vapor-storm",
+                    "displayName": "Vapor Storm",
+                    "requirement": "Get 50 kills",
+                    "progression": 0,
+                    "target": 50,
+                    "unlocked": false
+                },
+                {
+                    "name": "ghastly-green",
+                    "displayName": "Ghastly Green",
+                    "requirement": "Get 15 double kills",
+                    "progression": 0,
+                    "target": 15,
+                    "unlocked": false
+                },
+                {
+                    "name": "stone-rigdge",
+                    "displayName": "Stone Ridge",
+                    "requirement": "Get 20 kills from behind",
+                    "progression": 0,
+                    "target": 20,
+                    "unlocked": false
+                },
+                {
+                    "name": "intergalactic",
+                    "displayName": "Intergalactic",
+                    "requirement": "Get 40 kills while mounted",
+                    "progression": 0,
+                    "target": 40,
                     "unlocked": false
                 }
             ],
